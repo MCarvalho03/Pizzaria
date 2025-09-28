@@ -10,10 +10,10 @@ namespace Pizzaria
     {
         private Pizza _pizza = new Pizza();
 
-        public void Reset()
+        /*public void Reset()
         {
             _pizza = new Pizza();
-        }
+        }*/
 
         public void SetTaste(string taste, string tast2, string tast3)
         {

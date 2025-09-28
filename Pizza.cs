@@ -15,7 +15,7 @@ namespace Pizzaria
         public override string ToString()
         {
             return $"Pizza:\nTamanho: {Tamanho}, \nSabores: {Sabor} " +
-                $"\nBorda de {SaborBorda}";
+                $"\nBorda sabor {SaborBorda}";
         }
     }
 }

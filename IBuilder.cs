@@ -8,7 +8,7 @@ namespace Pizzaria
 {
     public interface IBuilder
     {
-        void Reset();
+        //void Reset();
         void SetTaste(string taste, string tast2, string tast3);
         void SetEdge(string edge);
         void SetSize(string size);

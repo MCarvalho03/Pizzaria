@@ -1,9 +1,9 @@
 ﻿using Pizzaria;
 
-var director = new PizzaDirector();
-
 var makePizza = new PizzaBuilder();
+var dir = new PizzaDirector(makePizza);
 
-director.Pizza3Taste(makePizza);
-Pizza pizza = makePizza.GetPizza();
-Console.WriteLine(pizza);
+dir.buildingPizza(taste: "Queijo", tast2: "Napolitana", tast3: "Portuguesa", edge: "Cheddar", size: "Familia");
+
+var p = makePizza.GetPizza();
+Console.WriteLine(p);
