@@ -8,7 +8,7 @@ namespace Pizzaria
 {
     public class PizzaDirector
     {
-        private IBuilder _builder;
+        /*private IBuilder _builder;
 
         public PizzaDirector(IBuilder builder)
         {
